@@ -1,51 +1,68 @@
 <!DOCTYPE html>
-<html lang = "en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Basic HTML Setup</title>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        <h1>Welcome to My Website</h1>
-        <p>This is a basic HTML setup.</p>
-        <h2> heading 2</h2>
-        <p> lalala </p>
-        <div class="container sans-serif">
-            <!-- this is a table -->
-            <div class="subject-title">
-                <span class="bold font-big">Matematisk modellering og datavitenskap – ingeniør</span>
-                <li>Bachelorprogram</li>
-            </div> 
-            <div class="second-row first-column">
-                <span class="information-heading">Studiested</span>
-                <li>Pilestredet i Oslo</li>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic HTML Setup</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<header>
+    <div class="header-container">
+            <div>
+                <a href="https://www.oslomet.no/">
+                <img src="Logo_of_Oslo_Metropolitan_University.svg.png" href="https://www.oslomet.no/" alt="OsloMet logo" width="60px" height="36px" />
+                </a>
             </div>
-            <div class="second-row">
-                <span class="information-heading">Varighet</span>
-                <li>3 år</li>
-            </div>
-            <div class="second-row">
-                <span class="information-heading">Omfang</span>
-                <li>Heltid </li>
-            </div>
-            <div class="second-row">
-                <span class="information-heading">Studiepoeng</span>
-                <li>180</li>
-            </div>
-            <div class="third-row">
-                <span class="information-heading">Studiestart</span>
-                <li>August</li>
-            </div>
-            <div class="third-row">
-                <span class="information-heading">Undervisningsspråk</span>
-                <li>Norsk</li>
-                <li>Engelsk</li>
-            </div>
-            <div class="third-row">
-                <span class="information-heading">Studieplasser</span>
-                <li>40</li>
-            </div>
+    </div>
+    <div class="header-container">
+        <div class="sans-serif bold">
+            <a href="https://www.oslomet.no/studier/studieoversikt" >
+            <span> < Studieoversikt</span>
+            </a>
         </div>
-    </body>
+    </div>
+</header>
+<body>
+    <!-- This is title container -->
+    <div class="container sans-serif">
+        <div class="subject-title">
+            <span class="bold font-big" style="font-size:4.5vw;">Matematisk modellering og datavitenskap –
+                ingeniør</span>
+            <li style="font-size: max(22px, 1.5vw);">Bachelorprogram</li>
+        </div>
+    </div>
+    <div class="container sans-serif">
+        <!-- this is a table -->
+        <div class="second-row first-column">
+            <span class="information-heading">Studiested</span>
+            <li>Pilestredet i Oslo</li>
+        </div>
+        <div class="second-row">
+            <span class="information-heading">Varighet</span>
+            <li>3 år</li>
+        </div>
+        <div class="second-row">
+            <span class="information-heading">Omfang</span>
+            <li>Heltid </li>
+        </div>
+        <div class="second-row">
+            <span class="information-heading">Studiepoeng</span>
+            <li>180</li>
+        </div>
+        <div class="third-row">
+            <span class="information-heading">Studiestart</span>
+            <li>August</li>
+        </div>
+        <div class="third-row">
+            <span class="information-heading">Undervisningsspråk</span>
+            <li>Norsk</li>
+            <li>Engelsk</li>
+        </div>
+        <div class="third-row">
+            <span class="information-heading">Studieplasser</span>
+            <li>40</li>
+        </div>
+    </div>
+</body>
 </html>
