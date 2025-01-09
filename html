@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="no">
 
 <head>
     <meta charset="UTF-8">
@@ -10,33 +10,47 @@
 </head>
 <header>
     <div class="header-container">
-            <a href="https://www.oslomet.no"><img src="graphic/oslomet logo.png"width="60px" height= "36px"alt="oslomet logo"></a>
+        <a href="https://www.oslomet.no"><img src="graphic/oslomet logo.png"width="60px" height= "36px"alt="oslomet logo"></a>
+        <div class="flex-container">
             <div class="flex-container">
-                <div class="flex-container">
-                    <form id="søk" class="sans-serif input">
-                        <label for="søk"><strong>SØK</strong></label></form>
-                        <input type="text" id="søk" class="input">
-                        <button type="submit" class="button"><img src="graphic/search-icon.svg"></button>
-                    </form>
-                </div>
-                <div>
-                    <span class="sans-serif"><strong>MENY</strong></span>
-                    <span></span>
-                    <div class="off-screen-menu"></div>
-                        <ul>
-                            <li>Studier</li>
-                            <li>Forskningen vår</li>
-                            <li>Samarbeid</li>
-                        </ul>
-                    <nav>
-                        <div class="ham-menu">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </div>
-                    </nav>
-                </div>
+                <form id="søk" class="sans-serif input">
+                    <label for="søk"><strong>SØK</strong></label></form>
+                    <input type="text" id="søk" class="input">
+                    <button type="submit" class="button"><img src="graphic/search-icon.svg"></button>
+                </form>
             </div>
+            <div>
+                <span class="sans-serif"><strong>MENY</strong></span>
+                <!-- <div class="off-screen-menu">
+                    <ul>
+                        <li>Studier</li>
+                        <li>Forskningen vår</li>
+                        <li>Samarbeid</li>
+                    </ul>
+                </div> -->
+                <!-- <nav>
+                    <div class="ham-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </nav> -->
+            </div>
+        </div>
+        <div class="off-screen-menu">
+            <ul>
+                <li>Studier</li>
+                <li>Forskningen vår</li>
+                <li>Samarbeid</li>
+            </ul>
+        </div>
+        <nav>
+            <button class="button ham-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
     </div>
     <div class="header-container">
         <div class="sans-serif bold">
